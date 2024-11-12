@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(diana-light-pBBxMUCgwuU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+header{
+    background-color: #f5cca9;
+    padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1{
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+    color: #a95603;
+    
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 19px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 70px;
+}
+ nav ul li a {
+    text-decoration: none;
+    color: rgb(13, 3, 3);
+    padding: 5px 10px;
+    border-radius: 5px;
+ }
+ nav ul li a:hover{
+    background-color: #894501;
+ }
+ 
+.button{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 8px;
+    width: 100px;
+}
+ .button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+ }
+
+ .Home{
+    width: 50px;
+    height: 650px;
+    border: 10px solid #f5cca9;
+    float: right;
+    padding-top: 1px;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: #f5cca9;
+    
+ }
+ .h2{
+    color:  #974804;
+    text-align: center;
+ }
+
+ .glowing-text {
+    animation: glow 1s infinite ease-in-out;
+    text-shadow: 20 20 10px #974804;
+    font-size: 20px;
+  }
+  
+  /* @keyframes glow {
+    0% {
+      text-shadow: 0 0 10px #f5cca9;
+    }
+    50% {
+      text-shadow: 0 0 20px  #070400;
+    }
+    100% {
+      text-shadow: 0 0 10px #f5cca9
+    }
+
+  } */
+
+  /* Align Home and image slider side-by-side */
+.content-container {
+  display: flex;
+  gap: 20px;
+}
+
+.Home {
+  flex: 1;
+}
+
+.image-slider {
+  flex: 1;
+  max-width: 600px; /* Set max width for the slider */
+  position: relative;
+}
+
+.slider-image {
+  width: 100%;
+  height: 670px;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right:15px;
+}
+
+  

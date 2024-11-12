@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color:#273134 ;
+    line-height: 1.6;
+ background-color: rgb(188, 178, 178);
+}
+
+
+
+.hero {
+    display: flex;
+   justify-content: center;
+    color:#273134;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.about, .bestsellers, .testimonials, .contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.bestsellers .product-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+
+.product {
+    background-color: rgb(255, 243, 243);
+    padding: 1rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 500px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.add-to-cart {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #555;
+}
+
+.testimonials .testimonial {
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contact form input, .contact form textarea {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.about{
+    border: 3px solid black;
+    background-color: #fff;
+    
+}
+.product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.add-to-cart {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+.bestsellers{
+    font-size: x-large;
+}
+.trending{
+    text-align: center;
+    font-size: x-large;
+    
+}
+/* Optional styling for New Arrivals section */
+.new-arrivals {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.new-arrivals h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
